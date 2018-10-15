@@ -7,7 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "farmShop", "farmShop\farmSh
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Services", "1-Services", "{889D319D-D2D1-4F4D-9DD1-1A991C8041CC}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\商城微服务.emmx = ..\..\..\Desktop\商城微服务.emmx
 		服务功能.txt = 服务功能.txt
 	EndProjectSection
 EndProject
