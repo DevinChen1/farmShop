@@ -1,7 +1,6 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
 
-namespace framShop.Core
+namespace ProductService.Domain.Models
 {
     /// <summary>
     /// 分类信息类
@@ -13,7 +12,6 @@ namespace framShop.Core
         /// <summary>
         /// 分类id
         /// </summary>
-       [Key]
         public int CateId { set; get; }//分类id
         /// <summary>
         /// 分类排序

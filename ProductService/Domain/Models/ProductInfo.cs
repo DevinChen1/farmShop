@@ -1,8 +1,7 @@
 ﻿using framShop.Core.Domain.Product.Enum;
 using System;
-using System.ComponentModel.DataAnnotations;
 
-namespace framShop.Core
+namespace ProductService.Domain.Models
 {
     /// <summary>
     /// 商品信息类
@@ -12,7 +11,6 @@ namespace framShop.Core
         /// <summary>
         /// 商品id
         /// </summary>
-        [Key]
         public int Pid { get; set; }//商品id
         /// <summary>
         /// 商品货号
