@@ -1,22 +1,23 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace framShop.Core
+namespace framShop.Core.Domain.Product
 {
     /// <summary>
     /// 商品图片信息类
     /// </summary>
     public class ProductImageInfo
     {
+        public ProductImageInfo() { PImgId = Guid.NewGuid().ToString("N"); }
         /// <summary>
         /// 商品图片id
         /// </summary>
         [Key]
-        public int PImgId { get; set; }
+        public string PImgId { get; set; }
         /// <summary>
         /// 商品id
         /// </summary>
-        public int Pid { get; set; }
+        public string Pid { get; set; }
         /// <summary>
         /// 商品图片
         /// </summary>
@@ -24,10 +25,10 @@ namespace framShop.Core
         /// <summary>
         /// 是否为主图
         /// </summary>
-        public int IsMain { get; set; }
+        public bool? IsMain { get; set; } = false;
         /// <summary>
         /// 商品图片排序
         /// </summary>
-        public int DisplayOrder { get; set; }
+        public int? DisplayOrder { get; set; } = 0;
     }
 }

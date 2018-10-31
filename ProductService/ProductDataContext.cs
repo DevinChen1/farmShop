@@ -1,4 +1,4 @@
-﻿using framShop.Core;
+﻿using framShop.Core.Domain.Product;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -12,11 +12,11 @@ namespace ProductService
         public ProductServiceContext(DbContextOptions<ProductServiceContext> options)
             : base(options)
         {
+
         }
         public DbSet<ProductInfo> ProductInfos { get; set; }
         public DbSet<ProductImageInfo> ProductImageInfos { get; set; }
         public DbSet<CategoryInfo> CategoryInfos { get; set; }
-
-
+        public DbSet<CateProduct> CateProducts { get; set; }
     }
 }

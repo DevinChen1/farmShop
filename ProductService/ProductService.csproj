@@ -12,6 +12,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20181031054651_updateModel.cs" />
+    <Compile Remove="Migrations\20181031054651_updateModel.Designer.cs" />
+    <Compile Remove="Migrations\20181031064837_AddCateProduct.cs" />
+    <Compile Remove="Migrations\20181031064837_AddCateProduct.Designer.cs" />
+    <Compile Remove="Migrations\20181031065258_AddCateProduct.cs" />
+    <Compile Remove="Migrations\20181031065258_AddCateProduct.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
