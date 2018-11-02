@@ -1,5 +1,9 @@
-产品
-产品类别
-产品类别组
+CartService			购物车服务
+OrderService		订单服务
+ProductService		产品服务
+PromotionService	促销服务
+ShopService			门店服务
+UserService			用户服务
+AddressService		地址服务
 
-订单
+ 

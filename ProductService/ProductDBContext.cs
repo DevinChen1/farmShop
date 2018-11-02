@@ -1,5 +1,5 @@
-﻿using framShop.Core.Domain.Product;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using ProductService.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ProductService
 {
-    public class ProductServiceContext : DbContext
+    public class ProductDBContext : DbContext
     {
-        public ProductServiceContext(DbContextOptions<ProductServiceContext> options)
+        public ProductDBContext(DbContextOptions<ProductDBContext> options)
             : base(options)
         {
 
