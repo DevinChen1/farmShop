@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Domain\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
@@ -12,6 +13,15 @@
     <PackageReference Include="Essensoft.AspNetCore.Payment.Alipay" Version="1.6.1" />
     <PackageReference Include="Essensoft.AspNetCore.Payment.WeChatPay" Version="1.6.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.Development.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="appsettings.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
