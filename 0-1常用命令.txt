@@ -1,0 +1,8 @@
+dotnet 命令
+	dotnet new  -创建		 
+	dotnet restore  -还原
+	dotnet build -编译
+	dotnet run -运行
+	dotnet test -测试
+	dotnet pack -打包
+	dotnet publish -发布	

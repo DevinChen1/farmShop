@@ -1,0 +1,14 @@
+2-Ocelot_ID4
+	ID4.IdServer		验证服务器
+	ID4.Ocelot			网关服务器
+
+3-Services
+	CartService			购物车服务
+	OrderService		订单服务
+	ProductService		产品服务
+	PromotionService	促销服务
+	ShopService			门店服务
+	UserService			用户服务
+	AddressService		地址服务
+	PaymentService		支付服务
+

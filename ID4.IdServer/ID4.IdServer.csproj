@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\RequestDTOs\" />
-    <Folder Include="DTOs\ResponseDTOS\" />
     <Folder Include="wwwroot\" />
-    <Folder Include="Domain\" />
   </ItemGroup>
 
   <ItemGroup>
