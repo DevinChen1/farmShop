@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AddressService.Domain.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OrderService
+namespace AddressService
 {
     public class AddressDBContext : DbContext
     {
@@ -13,7 +14,10 @@ namespace OrderService
         {
 
         }
-        //public DbSet<ProductInfo> ProductInfos { get; set; }
- 
+        public DbSet<RegionInfo> RegionInfos { get; set; }
+        public DbSet<ShipAddressInfo> ShipAddressInfos { get; set; }
+
+        
+
     }
 }
