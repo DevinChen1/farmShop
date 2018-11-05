@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "farmShop", "farmShop\farmShop.csproj", "{31FD4F11-7C78-45D8-8906-279FE17AF418}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Services", "3-Services", "{889D319D-D2D1-4F4D-9DD1-1A991C8041CC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService", "ProductService\ProductService.csproj", "{52ECCCE7-83E5-4F21-A379-BB01EA3023BD}"
@@ -27,17 +25,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopService", "ShopService\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "UserService\UserService.csproj", "{A23CDBF3-D471-4BA2-82FE-3C949E148DA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService", "CartService\CartService.csproj", "{B2D39A78-02FF-41A4-8755-72FE469E29D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartService", "CartService\CartService.csproj", "{B2D39A78-02FF-41A4-8755-72FE469E29D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressService", "AddressService\AddressService.csproj", "{ECC96F24-854F-484B-B677-879A5609C7D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressService", "AddressService\AddressService.csproj", "{ECC96F24-854F-484B-B677-879A5609C7D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{A4C92B74-BFCD-48F7-A6BC-C2EC51633C4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService", "PaymentService\PaymentService.csproj", "{A4C92B74-BFCD-48F7-A6BC-C2EC51633C4C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Ocelot_ID4", "2-Ocelot_ID4", "{0604E815-9BEA-45F9-9ACB-BF4BD010B23F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ID4.IdServer", "ID4.IdServer\ID4.IdServer.csproj", "{6F4E64F6-E610-4DDC-B971-8B8C784FCC45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ID4.IdServer", "ID4.IdServer\ID4.IdServer.csproj", "{6F4E64F6-E610-4DDC-B971-8B8C784FCC45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ID4.Ocelot", "ID4.Ocelot\ID4.Ocelot.csproj", "{DF4A8C7A-FB00-498C-BDC5-53A3B32F332F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ID4.Ocelot", "ID4.Ocelot\ID4.Ocelot.csproj", "{DF4A8C7A-FB00-498C-BDC5-53A3B32F332F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Document", "5-Document", "{8888B382-D0F8-4EB4-A4EB-5494BE9AD15B}"
 	ProjectSection(SolutionItems) = preProject
@@ -53,10 +51,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{31FD4F11-7C78-45D8-8906-279FE17AF418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31FD4F11-7C78-45D8-8906-279FE17AF418}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31FD4F11-7C78-45D8-8906-279FE17AF418}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31FD4F11-7C78-45D8-8906-279FE17AF418}.Release|Any CPU.Build.0 = Release|Any CPU
 		{52ECCCE7-83E5-4F21-A379-BB01EA3023BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52ECCCE7-83E5-4F21-A379-BB01EA3023BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52ECCCE7-83E5-4F21-A379-BB01EA3023BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
