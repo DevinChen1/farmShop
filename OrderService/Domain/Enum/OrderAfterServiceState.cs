@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace framShop.Core
+namespace OrderService.Domain.Enums
 {
     /// <summary>
     /// 订单售后服务状态

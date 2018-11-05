@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace framShop.Core
+namespace OrderService.Domain.Models
 {
     /// <summary>
     /// 订单处理信息类
@@ -35,7 +35,7 @@ namespace framShop.Core
         }
         /// <summary>
         /// 用户id
-        /// </summary>
+        /// </summary>  
         public int Uid
         {
             get { return _uid; }

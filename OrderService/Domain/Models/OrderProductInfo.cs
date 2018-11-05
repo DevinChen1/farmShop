@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace framShop.Core
+namespace OrderService.Domain.Models
 {
     /// <summary>
     /// 订单商品信息类
