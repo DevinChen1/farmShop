@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace PromotionService.Domain.Promotion
+namespace PromotionService.Domain.Models
 {
     /// <summary>
-    /// 满赠促销活动信息类
+    /// 买送促销活动信息类
     /// </summary>
-    public class FullSendPromotionInfo
+    public class BuySendPromotionInfo : IComparable<BuySendPromotionInfo>
     {
         private int _pmid;//活动id
         private DateTime _starttime;//开始时间
@@ -13,10 +13,9 @@ namespace PromotionService.Domain.Promotion
         private int _userranklower;//用户等级下限
         private int _state;//状态
         private string _name;//名称
-        private int _limitmoney;//限制金额
-        private int _addmoney;//添加金额
-
-
+        private int _type;//类型(0代表全场参加，1代表部分商品参加，2代表部分商品不参加)
+        private int _buycount;//购买数量
+        private int _sendcount;//赠送数量
 
         /// <summary>
         /// 活动id
@@ -67,22 +66,37 @@ namespace PromotionService.Domain.Promotion
             set { _name = value; }
         }
         /// <summary>
-        /// 限制金额
+        /// 类型(0代表全场参加，1代表部分商品参加，2代表部分商品不参加)
         /// </summary>
-        public int LimitMoney
+        public int Type
         {
-            get { return _limitmoney; }
-            set { _limitmoney = value; }
+            get { return _type; }
+            set { _type = value; }
         }
         /// <summary>
-        /// 添加金额
+        /// 购买数量
         /// </summary>
-        public int AddMoney
+        public int BuyCount
         {
-            get { return _addmoney; }
-            set { _addmoney = value; }
+            get { return _buycount; }
+            set { _buycount = value; }
+        }
+        /// <summary>
+        /// 赠送数量
+        /// </summary>
+        public int SendCount
+        {
+            get { return _sendcount; }
+            set { _sendcount = value; }
         }
 
-
+        public int CompareTo(BuySendPromotionInfo other)
+        {
+            if (this.BuyCount > other.BuyCount)
+                return 1;
+            if (this.BuyCount < other.BuyCount)
+                return -1;
+            return 0;
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿using framShop.Core.Domain.Product.Enum;
+﻿using ProductService.Domain.Enums;
 using System;
 
 namespace ProductService.Domain.Models

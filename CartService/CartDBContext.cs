@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CartService.Domain.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OrderService
+namespace CartService
 {
     public class CartDBContext : DbContext
     {
@@ -13,7 +14,7 @@ namespace OrderService
         {
 
         }
-        //public DbSet<ProductInfo> ProductInfos { get; set; }
+        public DbSet<CartProductInfo> CartProductInfos { get; set; }
  
     }
 }

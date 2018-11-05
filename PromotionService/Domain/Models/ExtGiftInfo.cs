@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PromotionService.Domain.Promotion
+namespace PromotionService.Domain.Models
 {
     /// <summary>
     /// 扩展赠品信息类

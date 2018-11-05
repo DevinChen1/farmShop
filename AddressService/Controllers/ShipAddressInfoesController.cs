@@ -44,7 +44,7 @@ namespace AddressService.Controllers
         }
 
         [HttpPost]
-        public async Task<int> Delete(string   said)
+        public async Task<int> DeleteAsync(string   said)
         {
             return await _shipAddressInfoesAppService.DeleteShipAddressInfoAsync(said);
         }

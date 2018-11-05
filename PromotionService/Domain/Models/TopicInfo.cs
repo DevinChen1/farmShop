@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PromotionService.Domain.Promotion
+namespace PromotionService.Domain.Models
 {
     /// <summary>
     /// 活动专题信息类

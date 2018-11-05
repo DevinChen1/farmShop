@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PromotionService.Domain.Promotion
+namespace PromotionService.Domain.Models
 {
     /// <summary>
     /// 优惠劵类型信息类
