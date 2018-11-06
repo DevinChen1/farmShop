@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using OrderService.Domain.Models;
 using ProductService.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,12 @@ namespace OrderService
         {
 
         }
-        //public DbSet<ProductInfo> ProductInfos { get; set; }
- 
+        public DbSet<OrderInfo> OrderInfos { get; set; }
+        public DbSet<OrderProductInfo> OrderProductInfos { get; set; }
+        public DbSet<OrderActionInfo> OrderActionInfos { get; set; }
+        public DbSet<OrderAfterServiceInfo> OrderAfterServiceInfos { get; set; }
+        public DbSet<OrderRefundInfo> OrderRefundInfos { get; set; }
+
+
     }
 }
