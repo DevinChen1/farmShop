@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using ProductService.Domain.AppServices;
 
 namespace ProductService
 {
@@ -27,6 +28,11 @@ namespace ProductService
         {
             services.AddDbContext<ProductDBContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient(typeof(ProductInfoAppService));
+            services.AddTransient(typeof(ProductImageInfoAppService));
+            services.AddTransient(typeof(CategoryInfoAppService));
+            services.AddTransient(typeof(CateProductInfoAppService));
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
