@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\AppServices\" />
     <Folder Include="DTOs\RequestDTOs\" />
     <Folder Include="DTOs\ResponseDTOS\" />
     <Folder Include="wwwroot\" />

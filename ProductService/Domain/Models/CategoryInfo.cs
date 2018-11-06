@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace ProductService.Domain.Models
 {
@@ -12,7 +13,8 @@ namespace ProductService.Domain.Models
         /// <summary>
         /// 分类id
         /// </summary>
-        public int CateId { set; get; }//分类id
+        [Key]
+        public string CateId { set; get; }//分类id
         /// <summary>
         /// 分类排序
         /// </summary>

@@ -1,5 +1,6 @@
 ﻿using ProductService.Domain.Enums;
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace ProductService.Domain.Models
 {
@@ -11,7 +12,8 @@ namespace ProductService.Domain.Models
         /// <summary>
         /// 商品id
         /// </summary>
-        public int Pid { get; set; }//商品id
+        [Key]
+        public string Pid { get; set; }//商品id
         /// <summary>
         /// 商品货号
         /// </summary>
@@ -19,7 +21,7 @@ namespace ProductService.Domain.Models
         /// <summary>
         /// 商品分类id
         /// </summary>
-        public int Cateid { get; set; }//商品分类id
+        public string Cateid { get; set; }//商品分类id
         /// <summary>
         /// 商品名称
         /// </summary>
@@ -85,7 +87,7 @@ namespace ProductService.Domain.Models
         /// <summary>
         /// 商品添加时间
         /// </summary>
-        public DateTime _addtime { get; set; } = DateTime.Now;//商品添加时间
+        public DateTime Addtime { get; set; } = DateTime.Now;//商品添加时间
 
         /// <summary>
         /// 商品描述

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace ProductService.Domain.Models
 {
-   public class CateProduct
+   public class CateProductInfo
     {
-        public CateProduct() { Id = Guid.NewGuid().ToString("N"); }
+        public CateProductInfo() { Id = Guid.NewGuid().ToString("N"); }
         [Key]
         public string Id { get; set; }
         public string CateId { set; get; }//分类id

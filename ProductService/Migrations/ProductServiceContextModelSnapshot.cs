@@ -8,7 +8,7 @@ using ProductService;
 
 namespace ProductService.Migrations
 {
-    [DbContext(typeof(ProductServiceContext))]
+    [DbContext(typeof(ProductDBContext))]
     partial class ProductServiceContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

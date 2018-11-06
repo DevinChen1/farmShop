@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace ProductService.Domain.Models
 {
@@ -10,11 +11,12 @@ namespace ProductService.Domain.Models
         /// <summary>
         /// 商品图片id
         /// </summary>
-        public int PImgId { get; set; }
+        [Key]
+        public string PImgId { get; set; }
         /// <summary>
         /// 商品id
         /// </summary>
-        public int Pid { get; set; }
+        public string Pid { get; set; }
         /// <summary>
         /// 商品图片
         /// </summary>
@@ -22,10 +24,10 @@ namespace ProductService.Domain.Models
         /// <summary>
         /// 是否为主图
         /// </summary>
-        public int IsMain { get; set; }
+        public bool IsMain { get; set; } = false;
         /// <summary>
         /// 商品图片排序
         /// </summary>
-        public int DisplayOrder { get; set; }
+        public int DisplayOrder { get; set; } = 0;
     }
 }

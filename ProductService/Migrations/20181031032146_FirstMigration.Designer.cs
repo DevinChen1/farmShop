@@ -9,7 +9,7 @@ using ProductService;
 
 namespace ProductService.Migrations
 {
-    [DbContext(typeof(ProductServiceContext))]
+    [DbContext(typeof(ProductDBContext))]
     [Migration("20181031032146_FirstMigration")]
     partial class FirstMigration
     {
