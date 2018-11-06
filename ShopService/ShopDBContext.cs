@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ShopService.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OrderService
+namespace ShopService
 {
     public class ShopDBContext : DbContext
     {
@@ -13,7 +14,7 @@ namespace OrderService
         {
 
         }
-        //public DbSet<ProductInfo> ProductInfos { get; set; }
+        public DbSet<ShopInfo> ShopInfos { get; set; }
  
     }
 }

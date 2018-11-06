@@ -3,8 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using UserService.Domain.Models;
 
-namespace OrderService
+namespace UserService
 {
     public class UserDBContext : DbContext
     {
@@ -13,7 +14,7 @@ namespace OrderService
         {
 
         }
-        //public DbSet<ProductInfo> ProductInfos { get; set; }
+        public DbSet<UserInfo> UserInfos { get; set; }
  
     }
 }
