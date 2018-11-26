@@ -11,10 +11,10 @@ using UserService.Domain.Models;
 namespace UserService.Domain.AppServices
 {
    
-    public class UserInfoesAppService  
+    public class UserInfosAppService  
     {
         private readonly UserDBContext _context;
-        public UserInfoesAppService(UserDBContext context)
+        public UserInfosAppService(UserDBContext context)
         {
             _context = context;
         }

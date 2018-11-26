@@ -45,6 +45,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Document", "5-Document", 
 		2-2运行起来(使用Docker)记录.txt = 2-2运行起来(使用Docker)记录.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminService", "AdminService\AdminService.csproj", "{0B02DA5A-3145-488A-AF02-1FAE1FE518EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CategoryService", "CategoryService\CategoryService.csproj", "{77E36E87-83AB-48EC-BECD-B2427147C01B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{DF4A8C7A-FB00-498C-BDC5-53A3B32F332F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF4A8C7A-FB00-498C-BDC5-53A3B32F332F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF4A8C7A-FB00-498C-BDC5-53A3B32F332F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B02DA5A-3145-488A-AF02-1FAE1FE518EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B02DA5A-3145-488A-AF02-1FAE1FE518EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B02DA5A-3145-488A-AF02-1FAE1FE518EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B02DA5A-3145-488A-AF02-1FAE1FE518EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E36E87-83AB-48EC-BECD-B2427147C01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E36E87-83AB-48EC-BECD-B2427147C01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E36E87-83AB-48EC-BECD-B2427147C01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E36E87-83AB-48EC-BECD-B2427147C01B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +128,8 @@ Global
 		{A4C92B74-BFCD-48F7-A6BC-C2EC51633C4C} = {889D319D-D2D1-4F4D-9DD1-1A991C8041CC}
 		{6F4E64F6-E610-4DDC-B971-8B8C784FCC45} = {0604E815-9BEA-45F9-9ACB-BF4BD010B23F}
 		{DF4A8C7A-FB00-498C-BDC5-53A3B32F332F} = {0604E815-9BEA-45F9-9ACB-BF4BD010B23F}
+		{0B02DA5A-3145-488A-AF02-1FAE1FE518EE} = {889D319D-D2D1-4F4D-9DD1-1A991C8041CC}
+		{77E36E87-83AB-48EC-BECD-B2427147C01B} = {889D319D-D2D1-4F4D-9DD1-1A991C8041CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5E8A17F-2A1B-4DE4-9F20-9D1AFB448E79}

@@ -4,9 +4,9 @@
 
 3-Services
 	AddressService		地址服务		基本完成
-
+	AdminService		权限管理
 	CartService			购物车服务		基本完成		
-	OrderService		订单服务
+	OrderService		订单服务		基本完成
 	ProductService		产品服务		基本完成
 	PromotionService	促销服务
 	ShopService			门店服务		基本完成

@@ -19,6 +19,6 @@ namespace ProductService
         public DbSet<ProductImageInfo> ProductImageInfos { get; set; }
         public DbSet<CategoryInfo> CategoryInfos { get; set; }
         public DbSet<CateProductInfo> CateProductInfos { get; set; }
-        public DbSet<ProductService.Controllers.Product> Product { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }

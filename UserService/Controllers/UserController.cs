@@ -13,8 +13,8 @@ namespace UserService.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private UserInfoesAppService _userInfoesAppService;
-        public UserController(UserInfoesAppService userInfoesAppService)
+        private UserInfosAppService _userInfoesAppService;
+        public UserController(UserInfosAppService userInfoesAppService)
         {
             this._userInfoesAppService = userInfoesAppService;
         }
