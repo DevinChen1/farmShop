@@ -1,21 +1,21 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace framShop.Core.Domain.Product
+namespace CategoryService.Domain.Models
 {
     /// <summary>
     /// 分类信息类
     /// </summary>
 	public class CategoryInfo
     {
-        public CategoryInfo() { CateId = Guid.NewGuid().ToString("N"); }
+       // public CategoryInfo() { CateId = Guid.NewGuid().ToString("N"); }
 
 
         /// <summary>
         /// 分类id
         /// </summary>
         [Key]
-        public string CateId { set; get; }//分类id
+        public string CateId { set; get; }= Guid.NewGuid().ToString("N");//分类id
         /// <summary>
         /// 分类排序
         /// </summary>
