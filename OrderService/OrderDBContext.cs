@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OrderService.Domain.Models;
-using ProductService.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
